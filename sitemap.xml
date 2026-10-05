@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://rotemweiss.com/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://rotemweiss.com/about/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://rotemweiss.com/press/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://rotemweiss.com/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority>
+    <image:image><image:loc>https://rotemweiss.com/images/rotem-weiss.jpg</image:loc><image:caption>Rotem Weiss, founder and CEO of Tavily</image:caption></image:image>
+  </url>
+  <url><loc>https://rotemweiss.com/about/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>1.0</priority>
+    <image:image><image:loc>https://rotemweiss.com/images/rotem-weiss.jpg</image:loc><image:caption>Rotem Weiss, founder and CEO of Tavily</image:caption></image:image>
+  </url>
+  <url><loc>https://rotemweiss.com/press/</loc><lastmod>2026-10-05</lastmod><changefreq>monthly</changefreq><priority>0.6</priority>
+    <image:image><image:loc>https://rotemweiss.com/images/rotem-weiss-tavily-series-a-2025.jpg</image:loc><image:caption>Rotem Weiss, founder and CEO of Tavily, in New York at the time of Tavily’s $25 million Series A, August 2025.</image:caption></image:image>
+    <image:image><image:loc>https://rotemweiss.com/images/rotem-weiss-forbes-israel-30-under-30-2026.jpg</image:loc><image:caption>Rotem Weiss on the Forbes Israel 30 Under 30 list, June 2026.</image:caption></image:image>
+    <image:image><image:loc>https://rotemweiss.com/images/rotem-weiss-redis-released-san-francisco-2025.jpg</image:loc><image:caption>Rotem Weiss on the “Agent memory and context” panel at Redis Released, San Francisco, September 4, 2025.</image:caption></image:image>
+    <image:image><image:loc>https://rotemweiss.com/images/rotem-weiss-nebius-for-startups-podcast-2026.jpg</image:loc><image:caption>Rotem Weiss on the Nebius for Startups Podcast, “Open Source. Then Enterprise.”, June 2026.</image:caption></image:image>
+    <image:image><image:loc>https://rotemweiss.com/images/rotem-weiss-deeplearning-ai-agents-in-langgraph-2024.jpg</image:loc><image:caption>Rotem Weiss (right) with Andrew Ng and Harrison Chase introducing the DeepLearning.AI course AI Agents in LangGraph, 2024.</image:caption></image:image>
+  </url>
 </urlset>

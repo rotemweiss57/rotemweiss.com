@@ -62,6 +62,13 @@ ul.list li { margin-bottom: 8px; }
 .press-item .outlet { color: var(--muted); font-size: 0.9rem; }
 .press-item .outlet b { color: var(--fg); font-weight: 600; }
 .card { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; }
+.muted { color: var(--muted); }
+.photos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 18px; margin: 16px 0 8px; }
+.photos figure { margin: 0; }
+.photos img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; border: 1px solid var(--rule); background: var(--card); }
+.photos figcaption { font-size: 0.9rem; line-height: 1.45; margin-top: 8px; }
+.photos .credit { display: block; color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
+@media (max-width: 480px) { .photos { grid-template-columns: 1fr; } }
 footer.site { border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
 footer.site .wrap { padding: 20px 16px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 .he { direction: rtl; unicode-bidi: isolate; }
